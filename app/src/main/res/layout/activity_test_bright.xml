@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/sk_test_bright_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:layout_width="300dp"
+            android:layout_height="15dp"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.bignox.testbrightness.render.BrightnessModeView
+                android:id="@+id/bmv_test_bright_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:text="1111111111111111jhfsljfhjdlHFlhfdl111111111111"
+                  android:layout_marginTop="25dp"
+                  android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
